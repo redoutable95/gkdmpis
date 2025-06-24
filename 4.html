@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ГБПОУ "Государственный колледж дизайна, моды, пищевой индустрии и сервиса"</title>
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+:root {
+  --primary: #A41507;
+  --bg: #fff;
+  --card-bg: #fafafa;
+  --text: #333;
+  --accent: #555;
+  --radius: 10px;
+  --transition: 0.4s ease;
+}
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+header {
+  background: var(--primary);
+  color:#fff;
+  text-align:center;
+  padding:1rem;
+}
+h1 { margin:0; font-size:1.5rem; }
+main { padding:1rem; }
+details {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  margin-bottom:1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+summary {
+  display: flex;
+  align-items: center;
+  padding:1rem;
+  cursor: pointer;
+  list-style: none;
+}
+summary::-webkit-details-marker { display: none; }
+summary i {
+  margin-right:0.6rem;
+  color: var(--primary);
+  width:1.3rem;
+  text-align:center;
+}
+summary::after {
+  content: '+';
+  margin-left:auto;
+  transition: transform var(--transition);
+}
+details[open] summary::after {
+  content: '–';
+}
+.content {
+  max-height: 0;
+  padding: 0 1rem;
+  opacity: 0;
+  transition: max-height var(--transition), opacity var(--transition);
+}
+details[open] .content {
+  max-height: 500px;
+  opacity: 1;
+  padding-bottom: 1rem;
+}
+.content p {
+  margin:0.5rem 0;
+  font-size:0.95rem;
+  color: var(--accent);
+}
+
+.footer-block {
+  background: var(--card-bg);
+  padding:1rem;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom:1rem;
+}
+.footer-block h2 {
+  margin-top:0;
+  font-size:1.1rem;
+  color: var(--primary);
+}
+.footer-block ul {
+  padding-left:1.2rem;
+}
+.footer-block address, .footer-block .working-hours {
+  font-style: normal;
+  color: var(--accent);
+  margin-top:0.5rem;
+}
+</style>
+</head>
+<body>
+    <header><h1>ГБПОУ "Государственный колледж дизайна, моды, пищевой индустрии и сервиса"</h1></header>
+<main>
+
+  <h2>👷 Профессии</h2>
+
+  <details>
+    <summary><i class="fas fa-tshirt"></i>Мастер по изготовлению швейных изделий</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 29.01.33 · <strong>Срок:</strong> 1 г 10 м (9 кл) / 10 м (11 кл)</p>
+      <p>Проектирование выкроек, настройка швейных машин, пошив одежды и аксессуаров, работа с тканями и контроль качества.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><i class="fas fa-utensils"></i>Повар, кондитер</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 43.01.09 · <strong>Срок:</strong> 2 г 10 м (9 кл)</p>
+      <p>Приготовление блюд, выпечки и десертов, подача блюд, работа с профессиональной кухонной техникой, санитария.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><i class="fas fa-file-alt"></i>Делопроизводитель</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 46.01.03 · <strong>Срок:</strong> 1 г 10 м / 10 м</p>
+      <p>Ведение офисной документации, корреспонденции, электронный документооборот, деловые коммуникации.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><i class="fas fa-print"></i>Мастер полиграфического производства</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 29.01.36 · <strong>Срок:</strong> 1 г 10 м (9 кл)</p>
+      <p>Настройка печатного оборудования, офсетная и цифровая печать, постпечатная обработка и контроль качества.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><i class="fas fa-palette"></i>Графический дизайнер</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 54.01.20 · <strong>Срок:</strong> 2 г 10 м</p>
+      <p>Создание логотипов, макетов, баннеров в Photoshop и Illustrator, работа с типографикой и композициями.</p>
+    </div>
+  </details>
+
+  <h2>🎓 Специальности</h2>
+
+  <details>
+    <summary><i class="fas fa-tshirt"></i>Конструирование и технология изделий лёгкой промышленности</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 29.02.10 · <strong>Срок:</strong> 2 г 10 м</p>
+      <p>Проектирование одежды, работа в CAD‑системах, подбор материалов, чертежи и организация производства.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary><i class="fas fa-spa"></i>Технологии индустрии красоты</summary>
+    <div class="content">
+      <p><strong>Код:</strong> 43.02.17 · <strong>Срок:</strong> 2 г 10 м</p>
+      <p>Косметология, уход за кожей, прически, маникюр, макияж, клиентский сервис, санитария и безопасность.</p>
+    </div>
+  </details>
+
+  <div class="footer-block">
+    <h2>🕒 График работы приёмной комиссии</h2>
+    <div class="working-hours">
+      ПН–ПТ: 9:00–16:00<br>
+      СБ: 10:00–13:00<br>
+      Перерыв: 13:00–14:00
+    </div>
+  </div>
+
+  <div class="footer-block">
+    <h2>📑 Необходимые документы</h2>
+    <ul>
+      <li>Аттестат (оригинал + копия)</li>
+      <li>Паспорт (копия)</li>
+      <li>Фото 3×4 – 4 шт.</li>
+      <li>Заявление (в приёмной)</li>
+      <li>Приписное свидетельство (юноши от 17 л, копия)</li>
+      <li>Мед. справка 086‑У (для «Технологии индустрии красоты»)</li>
+      <li>ИНН, СНИЛС, мед. полис (копии)</li>
+    </ul>
+  </div>
+
+  <div class="footer-block">
+    <h2>📍 Адрес</h2>
+    <address>г. Грозный, ул. им. Г. А. Угрюмова, 49</address>
+  </div>
+
+</main>
+</body>
+</html>
